@@ -89,3 +89,12 @@ p {
     margin-right: 5px;
   }
 }
+
+footer {
+  background-color: black;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+  a {
+    color: rgb(255, 255, 255);
+  }
+}
