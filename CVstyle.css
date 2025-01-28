@@ -1,0 +1,91 @@
+body {
+  margin: 0; /* Remove default browser margin */
+  padding: 0; /* Remove default browser padding */
+  justify-content: center; /* Center horizontally */
+  display: flex;
+  align-items: center; /* Center vertically */
+  font-family: Arial, sans-serif; /* Optional: Set a clean font */
+}
+
+.header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 100%;
+    margin: auto 0;
+    margin-bottom: -30px;
+    padding: 20px;
+    display: block;
+}
+
+.contact-details {
+  margin-top: -10px;
+  li {
+    text-align: center;
+    display: inline-block;
+    margin: auto 0;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
+
+section {
+  text-align:left;
+  margin: auto;
+  width: 100%;
+}
+
+.section-header {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+}
+
+.line-divider {
+  height: 2px;
+  width: 100%;
+  margin: auto;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: auto;
+  margin-top: 5px;
+  margin-bottom: auto;
+}
+
+.inline-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: auto;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.bullet-points {
+  list-style: None;
+  align-items: inside;
+  text-align: justify left;
+  li {
+    padding-left: 0%;
+    text-indent: 0%;
+    margin-top: -10px;
+  }
+  li::before {
+    content: "-"; /* Custom bullet (can use Unicode, emoji, or FontAwesome) */
+    color: black; /* Custom bullet color */
+    font-size: 20px;
+    margin-right: 5px;
+  }
+}
