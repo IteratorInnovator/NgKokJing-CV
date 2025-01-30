@@ -1,5 +1,11 @@
 {
     "redirects": [
-      { "source": "/", "destination": "/index.html", "statusCode": 301 }
-    ]
+      {
+        "source": "/index.html",
+        "destination": "/",
+        "permanent": true
+      }
+    ],
+    "cleanUrls": true
   }
+  
